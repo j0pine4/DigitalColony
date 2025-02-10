@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/mdc',
     'nuxt-easy-lightbox',
+    '@nuxt/content'
   ],
   tailwindcss: {
     config: {

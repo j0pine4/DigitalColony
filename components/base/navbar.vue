@@ -1,6 +1,6 @@
 <template>
     <nav class="px-4 lg:px-24 flex justify-between items-center py-6">
-        <h1 class="font-bold text-2xl"> Jonah Pine </h1>
+        <h1 class="font-bold text-2xl"> Digital Colony </h1>
 
         <ul class="flex gap-4 items-center">
             <li class="hover-active">
