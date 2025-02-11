@@ -7,6 +7,7 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-8 px-24">
+            {{ posts }}
             <!-- <base-card v-for="post in posts" :post="post"></base-card> -->
         </div>
     </section>
@@ -16,11 +17,7 @@
 
 import type { Post } from '~/models/Post';
 
-// const { find } = useStrapi();
-
-// const { data: posts } = await find<Post[]>('posts', {
-//     populate: "header_image"
-// });
+const { data: posts } = await useAsyncData('articles-all', () => queryCollection('articles').all())
 
 onMounted(() => {
     const animations = new Animations();
