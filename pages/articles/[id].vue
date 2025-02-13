@@ -1,0 +1,15 @@
+<template>
+    <base-layout :image="post?.image">
+        <div>
+            <ContentRenderer class="prose" v-if="post" :value="post" />
+        </div>
+    </base-layout>
+</template>
+
+<script setup lang="ts">
+
+const route = useRoute()
+
+const { data: post } = await useAsyncData(() => queryCollection('articles').path(route.path).first())
+
+</script>

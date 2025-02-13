@@ -9,7 +9,7 @@
 
             <!-- Primary Section Loaded State -->
             <div>
-                <img src="https://digitalcolony3d.wordpress.com/wp-content/uploads/2019/10/grassnuke_v004.png?w=1024"
+                <img :src="image"
                     class="h-[350px] w-full object-cover mb-12" alt="">
                 <!-- <img :src="article?.image_url" class="h-[350px] w-full object-cover mb-12" alt=""> -->
 
@@ -49,6 +49,10 @@ import { useQuery } from "@tanstack/vue-query";
 const { formatDate } = useUtils();
 
 const route = useRoute();
+
+const props = defineProps<{
+    image: string
+}>();
 
 // refetchArticle();
 
