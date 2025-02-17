@@ -7,19 +7,16 @@
 
         <main class="w-full">
 
-            <!-- Primary Section Loaded State -->
             <div>
-                <img :src="image"
-                    class="h-[350px] w-full object-cover mb-12" alt="">
-                <!-- <img :src="article?.image_url" class="h-[350px] w-full object-cover mb-12" alt=""> -->
+                <img :src="image" class="h-[350px] w-full object-cover mb-12" alt="">
 
                 <div class="w-full max-w-7xl mx-auto px-24">
-                    <!-- <h1 class="text-3xl font-bold mb-4"> {{ article?.title }} </h1> -->
+                    <h1 class="text-3xl font-bold mb-4"> {{ title }} </h1>
                 </div>
 
                 <!-- Filter Buttons -->
                 <div class="w-full max-w-7xl mx-auto px-4 lg:px-24 flex gap-4 place-content-start mb-24 ">
-                    <!-- <base-filter-button v-for="category in categories"> {{ category.name }} </base-filter-button> -->
+                    <base-filter-button v-for="tag in tags"> {{ tag }} </base-filter-button>
                 </div>
             </div>
 
@@ -32,7 +29,7 @@
 
                 <aside class="flex-col gap-20 min-w-[300px] max-w-[300px]">
                     <h2 class="text-3xl font-bold mb-2"> Recent </h2>
-                    <!-- <base-card v-for="article in recentArticles" :key="article.id" :article="article"></base-card> -->
+                    <base-card v-for="post in posts" :key="post.id" :post="post"></base-card>
                 </aside>
 
             </div>
@@ -44,14 +41,16 @@
 
 <script setup lang="ts">
 
-import { useQuery } from "@tanstack/vue-query";
-
 const { formatDate } = useUtils();
+
+const { data: posts } = await useAsyncData('articles-recent', () => queryCollection('articles').order('date', 'DESC').limit(5).all())
 
 const route = useRoute();
 
 const props = defineProps<{
-    image: string
+    image: string,
+    title: string,
+    tags: string[]
 }>();
 
 // refetchArticle();

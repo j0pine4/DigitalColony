@@ -3,7 +3,7 @@
 
         <div class="grid grid-cols-12 mb-12">
             <h1 class="col-span-4 text-6xl font-bold"> Recent Stories </h1>
-            <p class="col-span-6"> By pulling from a variety of reputable sources and presenting diverse perspectives, we empower you to form your own educated opinions. With key terms, background information, and open-ended questions, we go beyond the headlines to help you understand the full story. </p>
+            <p class="col-span-6"> By showcasing workflows from top 3D artists and studios, we give you a comprehensive view of industry techniques. With expert breakdowns, behind-the-scenes insights, and practical applications, we go beyond the renders to help you master the full creative process. </p>
         </div>
 
         <div class="flex w-full">

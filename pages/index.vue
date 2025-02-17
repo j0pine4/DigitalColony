@@ -8,7 +8,7 @@
     <!-- <p class="mx-24 mt-12"> {{ data }} </p> -->
 
     <NuxtMarquee>
-        <h1 class="text-[10vw] my-24 font-bold"> See the News, Not the Noise. </h1>
+        <h1 class="text-[10vw] my-24 font-bold"> See the Techniques, From Artists Who Know. </h1>
     </NuxtMarquee>
 
     <sections-recent class="hidden 2xl:block"></sections-recent>

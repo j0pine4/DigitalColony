@@ -1,5 +1,5 @@
 <template>
-    <base-layout :image="post?.image">
+    <base-layout :image="post!.image" :title="post!.title" :tags="post!.tags">
         <div>
             <ContentRenderer class="prose" v-if="post" :value="post" />
         </div>
