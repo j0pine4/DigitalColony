@@ -1,3 +1,11 @@
+---
+image: https://digitalcolony3d.wordpress.com/wp-content/uploads/2019/11/dominique-buttiens-01.jpg?w=825&h=510&crop=1
+date: 11/06/2019
+tags:
+  - Career Advice
+subtitle: Art is a marathon, not a sprint. Every artist had to start somewhere.
+---
+
 # 10000 Hours Later
 
 ## By: Dominique Buttiens
