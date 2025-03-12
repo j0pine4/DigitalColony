@@ -5,7 +5,7 @@ tags:
   - Houdini
   - Technical
 subtitle: Learn how to scatter natural looking grass with Houdini and leverage
-  Pixars USD format inside of Katana
+  Pixars USD format inside of Katana.
 ---
 
 ## [By: Jonah Pine](https://www.artstation.com/j0pine4)
