@@ -1,21 +1,12 @@
 ---
-__error__:
-  name: YAMLParseError
-  code: MULTILINE_IMPLICIT_KEY
-  message: |
-    Implicit keys need to be on a single line at line 4, column 1:
-
-    tags: 
-    -Houdini
-    ^
-  pos:
-    - 129
-    - 146
-  linePos:
-    - line: 4
-      col: 1
-    - line: 5
-      col: 9
+image: https://digitalcolony3d.wordpress.com/wp-content/uploads/2019/11/banner_33.jpg?w=825&h=510&crop=1
+date: 11/06/2019
+tags:
+  - Houdini
+  - Technical
+  - Breakdown/Guide
+  - Environment Art
+subtitle: Create cliffs in houdini with this 2 minute guide.
 ---
 
 # 2 Minute Cliffs In Houdini

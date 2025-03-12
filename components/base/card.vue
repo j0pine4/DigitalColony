@@ -4,7 +4,7 @@
             :src="post.image" alt="">
         <div class="flex flex-col">
             <!-- <p>{{ post }}</p> -->
-            <p class="text-xs text-neutral-700"> ({{ formatDate(post.date) }}) </p>
+            <!-- <p class="text-xs text-neutral-700"> ({{ formatDate(post.date) }}) </p> -->
             <h1 class="text-lg font-bold mb-4"> {{ post.title }} </h1>
             <p class="text-sm"> {{ post.subtitle }} </p>
         </div>
