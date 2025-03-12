@@ -3,9 +3,9 @@ image: https://digitalcolony3d.wordpress.com/wp-content/uploads/2019/10/grassnuk
 date: 02/11/2025
 tags:
   - Houdini
-  - Renderman
-  - USD
   - Technical
+subtitle: Learn how to scatter natural looking grass with Houdini and leverage
+  Pixars USD format inside of Katana
 ---
 
 ## [By: Jonah Pine](https://www.artstation.com/j0pine4)

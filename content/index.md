@@ -1,3 +1,10 @@
+---
+subtitle: Learn how to leverage Pixars USD and scatter natural looking grass
+  with Houdini.
+tags: "[Houdini]"
+date: 03/12/2025
+---
+
 # Creating a Grass Field with Houdini and USD
 
 ## [By: Jonah Pine](https://www.artstation.com/j0pine4)
