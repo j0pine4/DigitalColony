@@ -1,7 +1,11 @@
 ---
 image: https://digitalcolony3d.wordpress.com/wp-content/uploads/2019/10/grassnuke_v004.png?w=1024
 date: 02/11/2025
-tags: [Houdini, Renderman, USD, Technical]
+tags:
+  - Houdini
+  - Renderman
+  - USD
+  - Technical
 ---
 
 ## [By: Jonah Pine](https://www.artstation.com/j0pine4)
