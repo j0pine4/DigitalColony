@@ -2,7 +2,7 @@
     <section class="grid grid-col-6 lg:grid-cols-12 gap-4 lg:gap-8 px-4 lg:px-24">
 
         <div class="col-span-6 h-[60vh]">
-            <sections-hero-image v-if="posts" :isPrimary="true" :image="posts[0].image" :title="posts[0].title" ></sections-hero-image>
+            <sections-hero-image v-if="posts" :isPrimary="true" :post="posts[0]" ></sections-hero-image>
         </div>
 
         <div class="col-span-6 lg:h-[60vh]">
@@ -10,8 +10,8 @@
             <div class="flex flex-col justify-between h-full">
 
                 <div class="flex gap-4 lg:gap-8 h-[30vh] mb-4">
-                    <sections-hero-image v-if="posts" :image="posts[1].image" :title="posts[1].title"></sections-hero-image>
-                    <sections-hero-image v-if="posts" :image="posts[2].image" :title="posts[2].title"></sections-hero-image>
+                    <sections-hero-image v-if="posts" :post="posts[1]"></sections-hero-image>
+                    <sections-hero-image v-if="posts" :post="posts[2]"></sections-hero-image>
                 </div>
 
                 <p class="font-bold text-2xl lg:text-[2.5vw] py-2 h-full mb-4 leading-[2.5vw]">  Your go-to for industry-proven
