@@ -1,6 +1,9 @@
 ---
 image: https://digitalcolony3d.wordpress.com/wp-content/uploads/2019/06/thumbnail.jpg?w=825&h=510&crop=1
 date: 06/08/2019
+tags:
+  - Career Advice
+subtitle: How can we provide effective feedback to our fellow artists?
 ---
 
 # The “How To” Guide To A Good Critique page
