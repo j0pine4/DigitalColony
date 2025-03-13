@@ -1,7 +1,7 @@
 <template>
     <section class="grid grid-col-6 lg:grid-cols-12 gap-4 lg:gap-8 px-4 lg:px-24">
 
-        <div class="col-span-6 h-[60vh]">
+        <div class="col-span-6 h-[60vh] overflow-hidden">
             <sections-hero-image v-if="posts" :isPrimary="true" :post="posts[0]" ></sections-hero-image>
         </div>
 
