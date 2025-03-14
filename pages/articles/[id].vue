@@ -10,6 +10,6 @@
 
 const route = useRoute()
 
-const { data: post } = await useAsyncData(() => queryCollection('articles').path(route.path).first())
+const { data: post } = await useAsyncData(`post-${route.path}`, () => queryCollection('articles').path(route.path).first())
 
 </script>
