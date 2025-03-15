@@ -1,6 +1,8 @@
 <template>
-
+    
+    <base-cursor></base-cursor>
     <base-navbar :tight="true"></base-navbar>
+
 
     <div class="relative flex bg-neutral-100">
         <!-- <article-sidebar></article-sidebar> -->
