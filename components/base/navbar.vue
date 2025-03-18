@@ -6,8 +6,11 @@
             <li class="hover-active">
                 <NuxtLink to="/"> Home </NuxtLink>
             </li>
-            <li class="hover-active"> Recent </li>
-            <li class="hover-active"> Search </li>
+            <li class="hover-active">
+                <NuxtLink to="#search"> Search </NuxtLink>
+            </li>
+            <!-- <li class="hover-active"> Recent </li>
+            <li class="hover-active"> Search </li> -->
             <li class="bg-neutral-900 text-white px-4 py-2 rounded-full hover-active"> Subscribe </li>
         </ul>
     </nav>

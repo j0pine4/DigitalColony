@@ -5,8 +5,7 @@
 
 
     <div class="relative flex bg-neutral-100">
-        <!-- <article-sidebar></article-sidebar> -->
-
+        
         <main class="w-full">
 
             <div>

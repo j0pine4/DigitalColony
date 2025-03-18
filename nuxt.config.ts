@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/mdc',
     'nuxt-easy-lightbox',
-    '@nuxt/content'
+    '@nuxt/content',
+    'nuxt-umami'
   ],
   tailwindcss: {
     config: {
@@ -21,5 +22,9 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+  umami: {
+    id: '3842673d-3e71-4684-a312-6534c0de3584',
+    host: 'https://cloud.umami.is'
   }
 })

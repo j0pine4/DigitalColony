@@ -1,6 +1,6 @@
 <template>
 
-    <section class="mb-24">
+    <section id="search" class="mb-24">
 
         <!-- Filter Buttons -->
         <div class="px-4 lg:px-24 mb-8 mx-auto">
